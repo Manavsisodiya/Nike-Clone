@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+.maindiv{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+}
+.sidebar{
+    height: 100vh;
+    width: 18vw;
+    position: sticky;
+    overflow-y: hidden;
+    top: 0px;
+    background-color: black;
+}
+.contentspace{
+    height: max-content;
+    width: 82vw;
+    display: flex;
+}
+.logoimg2{
+    width: 57px;
+    height: 60px;
+    filter:brightness(0) saturate(100%) invert(98%) sepia(3%) saturate(366%) hue-rotate(30deg) brightness(110%) contrast(92%);
+    margin-top: 1rem;
+    margin-left: 5.5rem;
+}
+.adminimg{
+    width: 57px;
+    height: 60px;
+    filter: brightness(0) saturate(100%) invert(98%) sepia(3%) saturate(366%) hue-rotate(30deg) brightness(110%) contrast(92%);
+    margin-top: 0.5rem;
+    margin-left: 5.1rem;
+}
+.sidebartxt{
+    color: whitesmoke;
+    margin-top: 0.2rem;
+    margin-left: 5.1rem;
+}
+.sidebaritems{
+    margin-top: 3.5rem;
+    margin-left: 0.9rem;
+    width: 12.2rem;
+    height: 20rem;
+    cursor: pointer;
+    
+}
+
+
+.addashboard:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.addashboard:hover img{
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7500%) hue-rotate(101deg) brightness(100%) contrast(101%);
+}
+.addashboard:hover h6{
+    color: black;
+}
+.addashboard{
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease;
+    
+}
+
+
+.adorders{
+    display: flex;
+    margin-top: 0.5rem;
+    transition: 0.5s ease;
+    align-items: center;
+    
+}
+.adorders:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.adorders:hover img{
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7500%) hue-rotate(101deg) brightness(100%) contrast(101%);
+}
+.adorders:hover h6{
+    color: black;
+}
+
+.adlogout{
+    display: flex;
+    margin-top: 0.5rem;
+    transition: 0.5s ease;
+    align-items: center;
+    
+}
+.adlogout:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.adlogout:hover img{
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7500%) hue-rotate(101deg) brightness(100%) contrast(101%);
+}
+.adlogout:hover h6{
+    color: black;
+}
+
+
+.adproducts{
+    margin-top: 0.5rem;
+    transition: 0.5s ease;
+    align-items: center;
+    display: flex;   
+}
+.adproducts:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.adproducts:hover img{
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7500%) hue-rotate(101deg) brightness(100%) contrast(101%);
+}
+.adproducts:hover h6{
+    color: black;
+}
+
+
+.itemsimg{
+    filter: brightness(0) saturate(100%) invert(98%) sepia(3%) saturate(366%) hue-rotate(30deg) brightness(110%) contrast(92%);
+    width: 25px;
+    height: 25px;
+    margin-left: 2.5rem;
+    transition: filter 0.3s ease-in-out;
+}
+.itemstxt{
+    font-size: 17px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    color: whitesmoke;
+    transition: color 0.3s ease-in-out;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 400px;
+  height:400px;
+  object-fit: cover;
+}
+.swiperst{
+  position: relative;
+}
+.txt_slide1{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size:large;
+  position: absolute;
+ display: flex;
+ justify-content:center;
+ font-weight: 900;
+ margin-top: 20rem;
+
+}

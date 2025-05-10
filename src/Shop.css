@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.notification-dropdown {
+    position: fixed;
+    top: 49px;
+    right: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    padding: 40px;
+    display: flex;
+    height: 330px;
+    align-items: center;
+    gap: 10px;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-in-out, fadeOut 0.5s ease-in-out 3s forwards;
+}
+.addbag{
+    position: absolute;
+    font-size: 15px;
+    top: 1.1rem;
+    font-weight: bold;
+    font-size: 17px;
+    left: 60px;
+}
+.img12{
+    top: 1rem;
+    position: absolute;
+    width: 20px;
+    left: 26px;
+    height: 20px;
+}
+.notification-img {
+    width: 135px;
+    height: 135px;
+    margin-left: -0.8rem;
+    margin-top: -3rem;
+    border-radius: 5px;
+}
+.extra{
+    font-size: 15px;
+    color: #4b4b4b;
+}
+
+.notification-text {
+    font-size: 18px;
+    margin-top: -1.5rem;
+}
+.notification-text p{
+    margin-top: -15px;
+}
+
+.viewbag{
+    position: absolute;
+    top: 16rem;
+    left: 2rem;
+    width: 86%;
+    height: 60px;
+    font-size: 17px;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: 0.5px solid rgba(128, 128, 128, 0.842);
+    border-radius: 48px;
+}
+
+.viewbag:hover{
+    color: white !important;
+    background-color: black !important;
+    
+}
+.viewbag:focus, 
+.viewbag:active {
+    background-color: black !important;
+    color: white !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-10px); }
+}
+/* Above code is changed in shop only need to change in ervery page*/
+.Container {
+    display: flex;
+    padding: 10px;
+    
+}
+
+.SideScroll {
+    width: 25%;
+    position: sticky;
+    top: 90px;  
+    height: 80vh; 
+    overflow-y: hidden;
+    padding: 1rem;
+    
+}
+
+.MainContent {
+    display: flex;
+    width: 80%;
+    height: max-content;
+
+}
+
+.shoename {
+    margin-top: -1rem;
+    font-optical-sizing: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+.shoecategory{
+        margin-top: -10px;
+        color: rgb(94, 93, 93);
+        font-size:1rem;
+        
+    }
+    .shoeprice{
+        margin-top: 1.2rem;
+        font-size:1rem;
+        display: inline;
+        margin-right: 2rem;
+        font-weight: 500;
+        
+    }
+    .offerimg{
+    color: red;
+    font-family: 'poppins';
+    font-size: 1rem;
+    margin-top: -1rem;
+    
+}
+
+.btn2{
+    height:2rem;
+    font-size:smaller;
+    width: 4.4rem;
+    padding: 0;
+    background: none;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-left: 1rem; 
+    transition: 0.2s;
+}
+.btn2:hover{
+    background-color: rgb(109, 107, 107);
+    
+}
+.btn2:focus, 
+.btn2:active {
+    background-color: black !important;
+    color: white !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.menuhead{
+    color: black;
+    font-size: 1.05rem;
+    margin-left: 2.5rem;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 480;
+}
+.shophead{
+    margin-left: 2.5rem;
+    margin-bottom: 2.1rem;
+    font-family: "Roboto", sans-serif;
+}

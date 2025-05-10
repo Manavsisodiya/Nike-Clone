@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.text{ 
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+    margin-bottom: -0.3rem;
+    margin-left: 1rem;
+}
+.text_hero2{ 
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+    margin-top: -1.7rem;
+    margin-bottom: -0.3rem;
+    margin-left: 1rem;
+}
+.text1{
+    font-family: "Oswald", sans-serif;
+    font-weight: 550;
+    font-size: small;
+    font-size: large;
+}
+.button{
+    color: white;
+    background-color: black;
+    font-size: medium;
+    border-radius: 30px;
+    width: 5rem;
+    margin-top: -0.7rem;
+    font-weight: 550;
+    margin-left: 37rem;
+    padding: 2px;
+    height: 2rem;
+}
+.button:hover{
+    background-color: #707072;
+}
+.bannersize{
+    width: 95vw;
+}

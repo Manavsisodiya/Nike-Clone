@@ -1,0 +1,30 @@
+.hr{
+    width: 92%;
+    height: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.headfoot{
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    margin-bottom: 2.4rem;
+   
+    
+}
+.insidefoot{
+    font-size:0.8rem;
+    left: 0;
+    color: grey;
+    margin-top: 18px;
+    font-family: 'Poppins';
+}
+.containerfoot{
+    display: flex;
+    
+}
+.lastfoot{
+    margin-left: -59rem;
+    margin-top: 5rem;
+    font-size: small;
+    font-family: 'Poppins';
+}

@@ -1,0 +1,244 @@
+.section4{
+    display: block;
+    width: 450px;
+    height: 500px;
+    margin-left: 25rem;
+    margin-top: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo_section2{
+    display: flex;
+    width: 110px;
+    justify-content: space-between;    
+}
+.logo_section2 img{
+    width: 45px;
+    height: 45px;
+}
+.section4 h2{
+    margin-top: 2rem;
+    font-size: 29px
+}
+.section4 h5{
+    margin-top: 1rem;
+    font-size: 17px;
+    color: grey;
+}
+.refreshlogo{
+    width: 21px;
+    position: absolute;
+    top:15.5rem;
+    cursor: pointer;
+    left:51rem;
+    height: 21px;
+}
+
+.Code{
+    margin-top: 2.5rem;
+    padding: 25px;
+    padding-left:0.9rem ;
+    border: 0.5px solid grey;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+.Code:focus{
+    border-color: black;
+    box-shadow: 0px 0px 2px black;
+    outline: black;
+}
+.firstname{
+    margin-top: 2.5rem;
+    padding: 25px;
+    width: 48%;
+    padding-left:0.9rem ;
+    border: 0.5px solid grey;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+.firstname:focus{
+    border-color: black;
+    box-shadow: 0px 0px 2px black;
+    outline: black;
+}
+.surname{
+    width: 48%;
+    margin-top: 2.5rem;
+    padding: 25px;
+    padding-left:0.9rem ;
+    border: 0.5px solid grey;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+.surname:focus{
+    border-color: black;
+    box-shadow: 0px 0px 2px black;
+    outline: black;
+}
+.namesection{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.password{
+    margin-top: 2.5rem;
+    padding: 25px;
+    padding-left:0.9rem ;
+    border: 0.5px solid grey;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+.password:focus{
+    border-color: black;
+    box-shadow: 0px 0px 2px black;
+    outline: black;
+}
+.preference{
+    margin-top: 2.5rem;
+    padding: 10px;
+    width: 100%;
+    color: grey;
+    height: 50px;
+    padding-left:0.9rem ;
+    border: 0.5px solid grey;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+.preference:focus{
+    color: black !important;
+    border-color: black;
+    box-shadow: 0px 0px 2px black;
+    outline: black;
+}
+.preference:valid{
+    color: black !important;
+}
+
+.dobsection{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.day{
+    margin-top: 2.5rem;
+    width: 25%;
+    padding: 25px;
+    padding-left:0.9rem ;
+    border: 0.5px solid grey;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+.day:focus{
+    border-color: black;
+    box-shadow: 0px 0px 2px black;
+    outline: black;
+}
+.month{
+    margin-top: 2.5rem;
+    width: 25%;
+    padding: 25px;
+    padding-left:0.9rem ;
+    border: 0.5px solid grey;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+.month:focus{
+    border-color: black;
+    box-shadow: 0px 0px 2px black;
+    outline: black;
+}
+.year{
+    width: 45%;
+    margin-top: 2.5rem;
+    padding: 25px;
+    padding-left:0.9rem ;
+    border: 0.5px solid grey;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+.year:focus{
+    border-color: black;
+    box-shadow: 0px 0px 2px black;
+    outline: black;
+}
+.dobtitle{
+    font-size: small;
+    margin-bottom:-1.6rem;
+    margin-top:3rem;
+    margin-left:1rem;
+}
+.dobend{
+    font-size:x-small;
+    color: black;
+    margin-top:0.3rem;
+    margin-left:1rem;
+}
+.section4 h5{
+    margin-top: 0rem;
+    font-size: 16px;
+    color: black;    
+}
+.checkbox_container{
+    display: flex;
+    gap: 10px;
+    margin-top: 3rem;
+    
+}
+.checkbox_container2{
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+    
+}
+.checkbox{
+    margin-top: 0px;
+    position: relative;
+    width: 19px;
+    appearance: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 19px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.checkbox:checked {
+    background-color: black;
+}
+
+.checkbox:checked::after {
+    content: "✔";
+    font-size: 14px;
+    color: white; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+.account{
+    height:2.8rem;
+    font-size:15px;
+    width: 10.2rem;
+    padding: 10px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    border-radius: 38px;
+    background-color: black;
+    color: white;
+    margin-left: 18rem; 
+    margin-top: 2.2rem; 
+    margin-bottom: 2rem;
+    transition: 0.2s;
+    
+}
+.account:hover{
+    background-color: rgb(109, 107, 107);
+    
+}
+.loading-spinner2 {
+position: absolute;
+    margin-left: 28.7rem;
+    margin-top: 2.5rem;
+    color: #000; /* Change color if needed */
+  }

@@ -1,0 +1,92 @@
+.orderscontain{
+    width: 100vw;
+    height: 100vh;
+}
+.orderscontain h3{
+    margin-left:4rem ;
+    margin-top:2.7rem ;
+}
+.order_card{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-top: 1.7rem;
+}
+.order_image{
+    width: 165px;
+    height: 165px;
+    box-shadow: 0 0 5px black;
+    border-radius: 8px;
+}
+
+.order_name{
+    position: absolute;
+    left: 11.3rem;
+    top: 1rem;
+    font-size: small;
+}
+.order_price{
+    
+    top: 7rem;
+    font-size: small;
+    left: 11.3rem;
+    position: absolute;
+}
+.order_category{
+    
+    left: 11.3rem;
+    top: 2.5rem;
+    font-size: small;
+    color: rgb(72, 72, 72);
+    position: absolute;
+    
+}
+.order_qty{
+    left: 11.3rem;
+    top: 5.5rem;
+    font-size: small;
+    color: rgb(72, 72, 72);
+    position: absolute;
+}
+.order_size{
+    left: 11.3rem;
+    top: 4rem;
+    font-size: small;
+    color: rgb(72, 72, 72);
+    position: absolute;
+}
+.order_arrival{
+    font-size: medium;
+    position: absolute;
+    top: -2rem;
+    color: rgb(13, 174, 13);
+}
+.order_address{
+    font-size: small;
+    position: absolute;
+    top: 15.6rem;
+    left: 0.5rem;
+    height: max-content;
+    width: max-content;
+    color: black;
+}
+.order_finalamt{
+    font-size: small;
+    left: 0.5rem;
+    position: absolute;
+    top: 14.4rem;
+    color: black;
+}
+.personal_info{
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 5.5rem;
+    height: 285px;
+}
+.hr2{
+    width: 93%;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    margin-left: 0;
+}

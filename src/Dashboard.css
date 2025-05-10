@@ -1,0 +1,113 @@
+
+  
+  .dashboard-container {
+    width: 100vw;
+    gap: 20px;
+  }
+  
+  
+  .heading{
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+  }
+  .card_trevenue{
+    padding: 10px;
+    width: 20rem;
+    border: 0.5px solid rgba(128, 128, 128, 0.231);
+    height: 7rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .card_trevenue h6{
+    color: grey;
+  }
+  .card_trevenue h2{
+    color: white;
+  }
+  h2 span{
+    color: grey;
+    font-size: medium;
+    
+  }
+  
+  .card_trevenue p{
+    color: rgb(7, 184, 7);
+  }
+  .firstrow{
+    box-shadow: 0 2px 4px rgba(8, 8, 8, 0.571);
+    width: 75vw;
+    background-color: rgb(18, 18, 18);
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    display: flex;
+  }
+  .secondrow{
+    display: flex;
+    width:  75vw;
+    height: 45vh;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+  }
+  .cardrevenue{
+    padding: 10px;
+    height: 100%;
+    width: 29.5rem;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .cardsales{
+    padding: 10px;
+    height: 100%;
+    width: 29.5rem;
+    margin-left: 1rem;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .cardOrders{
+    padding: 10px;
+    height:100%;
+    width: 100%;
+    margin-top: 1rem;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  }
+  .thirdrow{
+    
+    width:  75vw;
+    height:max-content;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+
+  }
+
+    .positive {
+    color: green;
+  }
+  
+  .progress-container p {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .progress {
+    height: 10px;
+    background: #4caf50;
+    border-radius: 5px;
+    margin-left: 10px;
+    flex-grow: 1;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  

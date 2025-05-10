@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Oswald:wght@200..700&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+
+.cart-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    height: 300px;
+    
+}
+
+.cart-image {
+    position: absolute;
+    top: 1rem;
+    width: 10.5rem;
+    height: 10.5rem;
+    background-color: grey;
+    object-fit: cover;
+    border: 0.5px solid rgba(193, 190, 190, 0.651); 
+    background-color: grey;
+    border-radius: 8px;
+    margin-right: 15px;
+    
+}
+
+.name {
+    flex-grow: 1;
+    font-size: 17px;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    top: 1.5rem;
+    left: 12.5rem;
+}
+.price {
+    flex-grow: 1;
+    font-size: 17px;
+    font-weight: 550;
+    position: absolute;
+    color: black;
+    top: 1.5rem;
+    left:38rem;
+}
+.category {
+    font-weight: bold;
+    flex-grow: 1;
+    font-size: 16px;
+    position: absolute;
+    color: #444;
+    top: 3.3rem;
+    left: 12.5rem;
+}
+
+
+/* Badge for cart count in Navbar */
+.cart-link {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-badge {
+    position: absolute;
+    top: 1.7rem;
+    right: 2.8rem;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 100%;
+    min-height: max-content !important;
+    padding:0;
+    margin-bottom: 2rem;
+}
+.bag-details{
+    width:65vw ;
+    min-height: max-content !important;
+    
+}
+.summary{
+    height: 90vh;
+    width:30vw;
+    
+}
+
+.deleteicon{
+    width: 18px;
+    height: 20px;
+}
+.quantity{
+    position: absolute;
+    top: 0.4rem;
+    left: 3.6rem;
+    font-size: large;
+    
+}
+
+.delbtn {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius:50%;
+    transition: 0.3s;
+}
+
+.delbtn:hover {
+    background-color: #cbcaca81;
+}
+.addicon{
+    width: 18px;
+    height: 20px;
+}
+.minusicon{
+    width: 18px;
+    height: 20px;
+}
+.minusbutton {
+    color: white;
+    position: absolute;
+    top: 0rem;
+    left: 5rem;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius:50%;
+    transition: 0.3s;
+}
+.minusbutton:hover {
+    background-color: #cbcaca81;
+}
+.addbutton {
+    color: white;
+    position: absolute;
+    top: 0rem;
+    left: 7.8rem;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius:50%;
+    transition: 0.3s;
+}
+.addbutton:hover {
+    background-color: #cbcaca81;
+}
+.btn_contain{
+    position: absolute;
+    top: 13rem;
+    left: 1rem;
+    height: 39px;
+    border-radius: 40px;
+    width: 168px;
+   /* box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);*/
+    border: 0.5px solid rgba(193, 190, 190, 0.651); 
+}
+.hr1{
+    position: absolute;
+    width: 92%;
+    bottom: 0rem;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+.emptycart{
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 1.6rem;
+    margin-top: -1rem;
+}
+.subtotal{
+    position: relative;
+    font-size: 16px;
+    margin-top: 2.3rem;
+    font-weight: bold;
+    color: rgb(57, 57, 57);
+}
+.delivery{
+    position: relative;
+    font-size: 16px;
+    color: rgb(57, 57, 57);
+    font-weight: bold;
+}
+.total{
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+}
+.subtotal span{
+    position: absolute;
+    right:0;
+}
+.delivery span{
+    position: absolute;
+    right:0;
+}
+.total span{
+    position: absolute;
+    right:0;
+}
+.subtotal img{
+    position: absolute;
+    width: 14px;
+    top: 4px;
+    left: 4.7rem;
+    height: 14px;
+    cursor: pointer;
+}
+
+/*Tooltip section*/
+.tooltip-box {
+    position: absolute;
+    background: rgb(82, 81, 81);
+    border: 1px solid #ddd;
+    padding: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 90px;
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    left: 72.9%;
+    top: 9.7rem;
+    transform: translateX(-50%);
+    z-index: 100;
+  }
+  
+  /* Arrow pointing UP */
+  .tooltip-box::before {
+    content: "";
+    position: absolute;
+    top: 100%; /* Position at the bottom of tooltip box */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: white transparent transparent transparent; /* Arrow pointing UP */
+  }
+  
+  .tooltip-box::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 11px;
+    border-style: solid;
+    border-color: rgb(82, 81, 81) transparent transparent transparent; /* Border for shadow effect */
+  }
+  
+  .checkout{
+    width: 100%;
+    height: 60px;
+    font-size: 17px;
+    margin-top: 1rem;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 48px;
+  }
+ 
+
+  .size-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+    margin-left: 12rem;
+  }
+  
+  .size-selector label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .size-selector select {
+    width: 100px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .size-selector select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  

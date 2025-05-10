@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.text_w{ 
+    font-family: "Staatliches", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5.5rem;
+    margin-top: -17px;
+    margin-left: 21rem;
+    
+}
+.text1_w{
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    margin-top: 25px;
+    font-size:14px;
+    margin-left: 22rem;
+}
+.button_w{
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 8.2rem;
+    margin-left: 0.3rem;
+    font-weight: 550;
+    text-align: center;
+    padding-top: 5px;
+    
+    height: 2.1rem;
+}
+.button_w:hover{
+    background-color: #707072;
+}
+.banner-contain_w{
+    margin-left: 3.5rem;
+}
+.btn-contain_w{
+    display: flex;
+}
+
+
+.swipeimg_w{
+    height: 440px;
+    width: 350px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.image-container_w{
+    position: relative;
+    display: inline-flex; 
+    justify-content: space-evenly;
+    left: 4.5rem;
+}
+
+
+.image-text_w{
+    position: absolute;
+    top:28rem; 
+    left: 4rem;
+    font-size: 21px;
+    transform: translateX(-50%);
+    color: black; 
+    font-weight: 460;
+    font-family: "Oswald", sans-serif;
+    padding: 5px 10px;
+}
