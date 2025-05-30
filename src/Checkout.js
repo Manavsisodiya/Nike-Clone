@@ -7,7 +7,7 @@ import { useLocation,useNavigate } from "react-router-dom";
 import { Form } from "react-bootstrap";
 import CheckoutButton from "./CheckoutButton";
 
-function Checkout({}) {
+function Checkout() {
   const navigate = useNavigate();
   const [firstName, setFirstName] = useState(""); // Fixed variable name for clarity
   const [lastName, setLastName] = useState(""); // Fixed variable name for clarity
